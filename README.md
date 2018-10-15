@@ -1,2 +1,6 @@
+# TYPO3 Extension ``dst_supersized``
 
-Feel free to add some documentation or simply add a link to the online manual.
+https://extensions.typo3.org/extension/dst_supersized/
+
+
+> Supersized is a jQuery plugin that automatically sizes (background) images to the size of the browser and runs them as a slideshow.
