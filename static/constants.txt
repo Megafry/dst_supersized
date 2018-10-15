@@ -1,0 +1,62 @@
+plugin.dst_supersized {
+    
+    # cat=plugin.dst_supersized//010; type=boolean; label=Slideshow:Slideshow on/off
+    slideshow = 1
+
+    # cat=plugin.dst_supersized//020; type=boolean; label=Autoplay:Slideshow starts playing automatically
+    autoplay = 1
+
+    # cat=plugin.dst_supersized//030; type=boolean; label=Start slide:Start slide (0 is random)
+    start_slide = 1
+
+    # cat=plugin.dst_supersized//040; type=boolean; label=Random:Randomize slide order (Ignores start slide)
+    random = 0
+
+    # cat=plugin.dst_supersized//050; type=text; label=Slide Interval:Length between transitions
+    slide_interval = 1000
+    
+    # cat=plugin.dst_supersized//055; type=options[0,1,2,3,4,5,6,7]; label=Transition:0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+    transition = 1
+
+    # cat=plugin.dst_supersized//060; type=text; label=Transition Speed:Speed of transition
+    transition_speed = 4500
+
+    # cat=plugin.dst_supersized//070; type=boolean; label=New Window:Image links open in new window/tab
+    new_window = 1
+
+    # cat=plugin.dst_supersized//080; type=boolean; label=AutoDimensions:Pause slideshow on hover
+    pause_hover = 0
+
+    # cat=plugin.dst_supersized//090; type=boolean; label=Keyboard Nav:Keyboard navigation on/off
+    keyboard_nav = 1
+
+    # cat=plugin.dst_supersized//100; type=options[0,1,2,3];; label=Performance:0-Normal, 1-Hybrid speed/quality, 2-Optimizes image quality, 3-Optimizes transition speed // (Only works for Firefox/IE, not Webkit)
+    performance = 1
+    
+    # cat=plugin.dst_supersized//105; type=boolean; label=Image Protect:Disables image dragging and right click with Javascript
+    image_protect = 1    
+
+    # cat=plugin.dst_supersized//110; type=text; label=Image Path:Default image path
+    image_path = img/ 
+   
+   # cat=plugin.dst_supersized//120; type=text; label=min width:Min width allowed (in pixels)
+    min_width = 0
+
+    # cat=plugin.dst_supersized//130; type=text; label=min height:Min height allowed (in pixels)
+    min_height = 0
+
+    # cat=plugin.dst_supersized//140; type=boolean; label=vertical center:Vertically center background
+    vertical_center = 1
+
+    # cat=plugin.dst_supersized//150; type=boolean; label=horizontal center:Horizontally center background
+    horizontal_center = 1
+
+    # cat=plugin.dst_supersized//160; type=boolean; label=fit_portrait:Portrait images will not exceed browser height
+    fit_portrait = 1
+
+    # cat=plugin.dst_supersized//170; type=boolean; label=fit landscape:Landscape images will not exceed browser width
+    fit_landscape = 0
+
+
+
+}

@@ -1,0 +1,34 @@
+plugin.tx_dstsupersized_pi1 {
+
+    slideshow = {$plugin.dst_supersized.slideshow}
+    autoplay = {$plugin.dst_supersized.autoplay}
+    start_slide = {$plugin.dst_supersized.start_slide}
+    random = {$plugin.dst_supersized.random}
+    slide_interval = {$plugin.dst_supersized.slide_interval}
+    transition = {$plugin.dst_supersized.transition}
+    transition_speed = {$plugin.dst_supersized.transition_speed}
+    new_window = {$plugin.dst_supersized.new_window}
+    pause_hover = {$plugin.dst_supersized.pause_hover}
+    keyboard_nav = {$plugin.dst_supersized.keyboard_nav}
+    performance = {$plugin.dst_supersized.performance}
+    image_protect = {$plugin.dst_supersized.image_protect}
+    image_path = {$plugin.dst_supersized.image_path}
+    
+    min_width = {$plugin.dst_supersized.min_width}
+    min_height = {$plugin.dst_supersized.min_height}
+    vertical_center = {$plugin.dst_supersized.vertical_center}
+    horizontal_center = {$plugin.dst_supersized.horizontal_center}
+    fit_portrait = {$plugin.dst_supersized.fit_portrait}
+    fit_landscape = {$plugin.dst_supersized.fit_landscape}
+
+    stylesheetPath = typo3conf/ext/sk_fancybox/fancybox/jquery.fancybox-1.3.4.css
+
+    static_template_included = 1
+
+}
+
+page {
+    includeCSS.file39 = EXT:dst_supersized/res/css/supersized.css
+    headerData.30 < plugin.tx_dstsupersized_pi1
+}
+

@@ -1,0 +1,3 @@
+# cat=plugin.dst_supersized/enable; type=boolean; label=Don't include jQuery: This will prevent the extension from including the jQuery library. You can use your own inclusion method instead. t3jquery is automatically detected and does not require this to be set.
+dontIncludeJquery = 0
+
